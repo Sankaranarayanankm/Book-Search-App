@@ -15,7 +15,6 @@ const ContactPage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission (e.g., send data to server)
     console.log("Form submitted:", form);
     setForm({
       name: "",

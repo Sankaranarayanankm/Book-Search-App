@@ -45,6 +45,7 @@ header ul li a {
 
 .search-page {
   display: flex;
+  height: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -68,10 +69,11 @@ header ul li a {
   margin-top: 8px;
 }
 
-.search-page form div {
+.search-page form button {
   cursor: pointer;
-  translate: -26px 2px;
   height: 30px;
+  background-color: transparent;
+  border: none;
   margin: 0;
   padding: 0;
 }

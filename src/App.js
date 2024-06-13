@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
           <NotFound />
         </Route>
       </Switch>
+      <Footer />
     </>
   );
 };
